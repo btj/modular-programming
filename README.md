@@ -1,4 +1,4 @@
-# Object-Oriented Programming
+# Modular Programming
 
 - [Introduction: Topic of the course](intro.md)
 - [Principles of programming in Java](programming.md)

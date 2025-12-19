@@ -417,16 +417,16 @@ $endif$
 \vspace*{\fill}
 \begin{center}
 
-{\huge\bfseries Object-Oriented Programming\par}
+{\huge\bfseries Modular Programming\par}
 \vspace{2cm}
 {\Large Prof. Dr. Bart Jacobs\par}
-{\large with \href{https://github.com/btj/ogp-notes/graphs/contributors}{contributors}\par}
+{\large with \href{https://github.com/btj/modular-programming/graphs/contributors}{contributors}\par}
 \vspace{0.75cm}
 {Department of Computer Science, KU Leuven\par}
 \vspace{2cm}
 {\today\par}
 \vspace{4cm}
-\url{https://github.com/btj/ogp-notes}
+\url{https://github.com/btj/modular-programming}
 
 \end{center}
 \vspace*{\fill}

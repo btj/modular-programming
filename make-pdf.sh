@@ -31,7 +31,7 @@ else
   SED_IN_PLACE=(-i)
 fi
 sed "${SED_IN_PLACE[@]}" \
-  -e 's/\\chapter{Object-Oriented Programming}/\\chapter{Overview}/' \
+  -e 's/\\chapter{Modular Programming}/\\chapter{Overview}/' \
   -e 's/\\chapter{First Steps in Modular Programming (Part I)}/\\part{Part I: Single-Object Abstractions}\\chapter{First Steps in Modular Programming (Part I)}/' \
   -e 's/\\chapter{Managing Complexity through Modularity and Abstraction}/\\chapter[Managing Complexity: Modularity \\\& Abstraction]{Managing Complexity through Modularity and Abstraction}/' \
   -e 's/\\section{FractionLists: Representation Exposure Breaks Consistency}/\\section[Representation Exposure Breaks Consistency]{FractionLists: Representation Exposure Breaks Consistency}/' \
