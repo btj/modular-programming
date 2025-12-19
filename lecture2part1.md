@@ -3,7 +3,7 @@
 ### Contents
 
 - [Installing Eclipse and FSC4J](#installing-eclipse-and-fsc4j)
-- [Building and running our first program in Eclipse](#building-and-running-our-first-program-in-Eclipse)
+- [Building and running our first program in Eclipse](#building-and-running-our-first-program-in-eclipse)
 - [The problem](#the-problem)
 - [Encapsulating the fields of class Interval](#encapsulating-the-fields-of-class-interval)
 - [Moving the methods inside class Interval](#moving-the-methods-inside-class-interval)

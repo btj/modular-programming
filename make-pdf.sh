@@ -2,6 +2,15 @@
 set -x -e
 cp $JLEARNERPATH/language.md $JLEARNERPATH/*.png .
 
+required="3.2.1"
+pandoc_version=$(pandoc --version | head -n1 | awk '{print $2}')
+
+if [ "$(printf '%s\n' "3.2.1" "$pandoc_version" | sort -V | head -n1)" = "3.2.1" ]; then
+    latex_template=latex.template.pandoc3.2.1
+else
+    latex_template=latex.template
+fi
+
 pandoc -o course-notes.html -f gfm \
   intro.md \
   README.md \
@@ -24,7 +33,7 @@ pandoc -o course-notes.html -f gfm \
   multi_object_doc_instr.md \
   iterators.md \
   generics.md
-pandoc --wrap=none -V documentclass=book -V papersize:a4 --toc --template=latex.template --listings -o course-notes.tex course-notes.html
+pandoc --wrap=none -V documentclass=book -V papersize:a4 --toc --template=$latex_template --listings -o course-notes.tex course-notes.html
 if [ `uname -s` = Darwin ]; then
   SED_IN_PLACE=(-i '')
 else
